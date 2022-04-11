@@ -1,11 +1,10 @@
 body {
   background-color: gainsboro;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-.img:hover {
-  padding:4px;    
+  border: #000 solid 3px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 2% 4%;
+  border-radius: 15px;
 }
 
 .desc {
@@ -16,6 +15,10 @@ body {
   background-color: lightgray;
   border-radius: 15px;
   width: 100%;
+}
+
+.img:hover {
+  padding: 5px;
 }
 
 td {
