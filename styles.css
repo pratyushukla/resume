@@ -4,6 +4,10 @@ body {
   padding-right: 10%;
 }
 
+.img:hover {
+  padding:4px;    
+}
+
 .desc {
   font-size: 20px;
 }
