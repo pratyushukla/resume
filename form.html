@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details Form</title>
+    <style>
+      body {
+        background-color: powderblue;
+        background-image: url("1.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .info {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+        text-align: center;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="info">
+      <form action="form.html">
+        <h1>Submit Details</h1>
+        <div>
+          <input
+            class="fname"
+            type="text"
+            name="name"
+            placeholder="Full name"
+          /><br />
+          <input type="text" name="name" placeholder="Email" /><br />
+          <input type="text" name="name" placeholder="Phone number" /><br />
+          <input type="text" name="name" placeholder="Website" /><br />
+
+          <h4>Choose your favourite language</h4>
+          <input type="radio" value="C++" />
+          <label for="C++">C++</label>
+          <input type="radio" value="C++" />
+          <label for="C++">Java</label>
+          <input type="radio" value="C++" />
+          <label for="C++">Python</label>
+        </div>
+        <p>Leave a message</p>
+        <div>
+          <textarea rows="4"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
